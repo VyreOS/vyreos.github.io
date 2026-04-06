@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuration - VYRE OS</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" type="image/png" href="../../assets/logos/vyre-favicon.png">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <div id="logo">
+                <img src="../../assets/logos/vyre-logo.png" alt="VYRE OS" height="64">
+            </div>
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../download.html">Download</a></li>
+                <li><a href="index.html">Documentation</a></li>
+                <li><a href="../community.html">Community</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <aside id="sidebar">
+                <div class="box">
+                    <h3>Documentation</h3>
+                    <ul>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="installation.html">Installation</a></li>
+                        <li><a href="configuration.html">Configuration</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main id="main">
+                <h2>Post-Installation Configuration</h2>
+                <div class="section">
+                    <h3>1. System Updates</h3>
+                    <pre><code>sudo apt update</code></pre>
+                </div>
+                <div class="section">
+                    <h3>2. Graphics Drivers</h3>
+                    <h4>NVIDIA</h4>
+                    <pre><code>sudo apt install akmod-nvidia</code></pre>
+                    <h4>AMD / Intel</h4>
+                    <p>Included by default.</p>
+                </div>
+                <div class="section">
+                    <h3>3. Themes</h3>
+                    <p>VYRE OS uses Flat-Remix and Adwaita-dark by default.</p>
+                </div>
+            </main>
+        </div>
+        <footer id="footer">
+            <p>&copy; 2026 ONE-X Organization</p>
+        </footer>
+    </div>
+</body>
+</html>

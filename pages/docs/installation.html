@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Installation - VYRE OS</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" type="image/png" href="../../assets/logos/vyre-favicon.png">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <div id="logo">
+                <img src="../../assets/logos/vyre-logo.png" alt="VYRE OS" height="64">
+            </div>
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../download.html">Download</a></li>
+                <li><a href="index.html">Documentation</a></li>
+                <li><a href="../community.html">Community</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <aside id="sidebar">
+                <div class="box">
+                    <h3>Documentation</h3>
+                    <ul>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="installation.html">Installation</a></li>
+                        <li><a href="configuration.html">Configuration</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main id="main">
+                <h2>Installation Guide</h2>
+                <div class="section">
+                    <h3>1. Prepare Installation Media</h3>
+                    <pre><code>sudo dd if=vyre-os-26.03-x86_64.iso of=/dev/sdX bs=4M status=progress</code></pre>
+                </div>
+                <div class="section">
+                    <h3>2. Boot from USB</h3>
+                    <ol>
+                        <li>Insert USB drive</li>
+                        <li>Enter BIOS/UEFI (F2, F12, or Del)</li>
+                        <li>Set USB as first boot device</li>
+                        <li>Save and exit</li>
+                    </ol>
+                </div>
+                <div class="section">
+                    <h3>3. Run Calamares Installer</h3>
+                    <ol>
+                        <li>Select language</li>
+                        <li>Select timezone</li>
+                        <li>Configure partitions</li>
+                        <li>Create user</li>
+                        <li>Install</li>
+                    </ol>
+                </div>
+            </main>
+        </div>
+        <footer id="footer">
+            <p>&copy; 2026 ONE-X Organization</p>
+        </footer>
+    </div>
+</body>
+</html>
